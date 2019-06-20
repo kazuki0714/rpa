@@ -1,3 +1,30 @@
 // Place all the styles related to the customers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.table {
+    border-radius: 12px;
+}
+
+.table thead tr{
+    background-color:lavender;
+    border: 2px solid #ddd;
+}
+
+.table thead tr th{
+    border: 2px solid #ddd;
+}
+
+
+.table {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.table tr td{
+     border: 2px solid #ddd;
+}
